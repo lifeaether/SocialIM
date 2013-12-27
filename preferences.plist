@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>useThinUnderline</key>
+	<true/>
+	<key>inputModeIndex</key>
+	<integer>1</integer>
+	<key>sendResult</key>
+	<true/>
+	<key>candidateAlpha</key>
+	<real>0.9</real>
+	<key>candidateFontName</key>
+	<string>Hiragino Mincho Pro</string>
+	<key>candidateFontSize</key>
+	<integer>24</integer>
+	<key>candidateCount</key>
+	<integer>7</integer>
+</dict>
+</plist>

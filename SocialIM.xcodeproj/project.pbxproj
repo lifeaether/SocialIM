@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CE0F71D50F7B7ED2001870A6 /* FastPredictPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0F71D40F7B7ED2001870A6 /* FastPredictPanel.m */; };
+		CE0F71DA0F7B7FB5001870A6 /* PredictEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0F71D90F7B7FB5001870A6 /* PredictEngine.m */; };
+		CE1077BD0F6FFAFD001DD57D /* halfkatakanamap.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE1077BC0F6FFAFD001DD57D /* halfkatakanamap.plist */; };
+		CE176ACF0F58D7BF00FB2075 /* SubPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE176ACE0F58D7BF00FB2075 /* SubPanel.m */; };
+		CE271AB70F65733D007F613C /* RegisterWord.app in Resources */ = {isa = PBXBuildFile; fileRef = CE271AB60F65733D007F613C /* RegisterWord.app */; };
+		CE271AC00F6577C2007F613C /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE271ABF0F6577C2007F613C /* PreferencesController.m */; };
+		CE3A8B890F57B717006F7224 /* preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE3A8B880F57B717006F7224 /* preferences.plist */; };
+		CE3F72090F57F2CF0065B105 /* roman.icns in Resources */ = {isa = PBXBuildFile; fileRef = CE3F72070F57F2CF0065B105 /* roman.icns */; };
+		CE3F720A0F57F2CF0065B105 /* kana.icns in Resources */ = {isa = PBXBuildFile; fileRef = CE3F72080F57F2CF0065B105 /* kana.icns */; };
+		CE8CA0AA0F89DA4000EB72C1 /* kanamap.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE8CA0A90F89DA4000EB72C1 /* kanamap.plist */; };
+		CE9C76650F57BFA30011DCD4 /* preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9C76640F57BFA30011DCD4 /* preferences.xib */; };
+		CEB0A4080F53B40E002CDDED /* InputMethodKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB0A4070F53B40E002CDDED /* InputMethodKit.framework */; };
+		CEB0A40F0F53B69C002CDDED /* InputMethodController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A40E0F53B69C002CDDED /* InputMethodController.m */; };
+		CEB375A10F592B5100DDA185 /* romanmap.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEB375A00F592B5100DDA185 /* romanmap.plist */; };
+		CEB7CCC80F5CDB1900DDADC2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7CCC70F5CDB1900DDADC2 /* Constants.m */; };
+		CEBD2DEF0F53BCB700A52D8F /* ConversionEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD2DEE0F53BCB700A52D8F /* ConversionEngine.m */; };
+		CEBD2DF20F53BD7800A52D8F /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD2DF10F53BD7800A52D8F /* ApplicationDelegate.m */; };
+		CEBD2EE10F54200A00A52D8F /* CandidatePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD2EE00F54200A00A52D8F /* CandidatePanel.m */; };
+		CED5B9380F566A5600878D31 /* CandidateTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5B9370F566A5600878D31 /* CandidateTableView.m */; };
+		CEFB750A0F5CE6DB0007D31D /* katakanamap.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFB75090F5CE6DB0007D31D /* katakanamap.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* SocialIM_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialIM_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* SocialIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE091EDF0F57C83800A302E8 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE091EE40F57CC6100A302E8 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/preferences.xib; sourceTree = "<group>"; };
+		CE0F71D30F7B7ED2001870A6 /* FastPredictPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastPredictPanel.h; sourceTree = "<group>"; };
+		CE0F71D40F7B7ED2001870A6 /* FastPredictPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastPredictPanel.m; sourceTree = "<group>"; };
+		CE0F71D80F7B7FB5001870A6 /* PredictEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredictEngine.h; sourceTree = "<group>"; };
+		CE0F71D90F7B7FB5001870A6 /* PredictEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredictEngine.m; sourceTree = "<group>"; };
+		CE1077BC0F6FFAFD001DD57D /* halfkatakanamap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = halfkatakanamap.plist; sourceTree = "<group>"; };
+		CE176ACD0F58D7BF00FB2075 /* SubPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubPanel.h; sourceTree = "<group>"; };
+		CE176ACE0F58D7BF00FB2075 /* SubPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubPanel.m; sourceTree = "<group>"; };
+		CE271AB60F65733D007F613C /* RegisterWord.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = RegisterWord.app; sourceTree = "<group>"; };
+		CE271ABE0F6577C2007F613C /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		CE271ABF0F6577C2007F613C /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		CE3A8B840F57B4BF006F7224 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/preferences.xib; sourceTree = "<group>"; };
+		CE3A8B880F57B717006F7224 /* preferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = preferences.plist; sourceTree = "<group>"; };
+		CE3F72070F57F2CF0065B105 /* roman.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = roman.icns; sourceTree = "<group>"; };
+		CE3F72080F57F2CF0065B105 /* kana.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = kana.icns; sourceTree = "<group>"; };
+		CE8C2DDF0F5790C000D711E9 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8CA0A90F89DA4000EB72C1 /* kanamap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kanamap.plist; sourceTree = "<group>"; };
+		CEB0A4070F53B40E002CDDED /* InputMethodKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InputMethodKit.framework; path = /System/Library/Frameworks/InputMethodKit.framework; sourceTree = "<absolute>"; };
+		CEB0A40D0F53B69C002CDDED /* InputMethodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputMethodController.h; sourceTree = "<group>"; };
+		CEB0A40E0F53B69C002CDDED /* InputMethodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputMethodController.m; sourceTree = "<group>"; };
+		CEB375A00F592B5100DDA185 /* romanmap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = romanmap.plist; sourceTree = "<group>"; };
+		CEB7CCC60F5CDB1900DDADC2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CEB7CCC70F5CDB1900DDADC2 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CEBD2DED0F53BCB700A52D8F /* ConversionEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversionEngine.h; sourceTree = "<group>"; };
+		CEBD2DEE0F53BCB700A52D8F /* ConversionEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversionEngine.m; sourceTree = "<group>"; };
+		CEBD2DF00F53BD7800A52D8F /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		CEBD2DF10F53BD7800A52D8F /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		CEBD2EDF0F54200A00A52D8F /* CandidatePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidatePanel.h; sourceTree = "<group>"; };
+		CEBD2EE00F54200A00A52D8F /* CandidatePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidatePanel.m; sourceTree = "<group>"; };
+		CED5B9360F566A5600878D31 /* CandidateTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidateTableView.h; sourceTree = "<group>"; };
+		CED5B9370F566A5600878D31 /* CandidateTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidateTableView.m; sourceTree = "<group>"; };
+		CEFB75090F5CE6DB0007D31D /* katakanamap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = katakanamap.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				CEB0A4080F53B40E002CDDED /* InputMethodKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0A40D0F53B69C002CDDED /* InputMethodController.h */,
+				CEB0A40E0F53B69C002CDDED /* InputMethodController.m */,
+				CEBD2DED0F53BCB700A52D8F /* ConversionEngine.h */,
+				CEBD2DEE0F53BCB700A52D8F /* ConversionEngine.m */,
+				CE0F71D80F7B7FB5001870A6 /* PredictEngine.h */,
+				CE0F71D90F7B7FB5001870A6 /* PredictEngine.m */,
+				CEBD2DF00F53BD7800A52D8F /* ApplicationDelegate.h */,
+				CEBD2DF10F53BD7800A52D8F /* ApplicationDelegate.m */,
+				CEBD2EDF0F54200A00A52D8F /* CandidatePanel.h */,
+				CEBD2EE00F54200A00A52D8F /* CandidatePanel.m */,
+				CED5B9360F566A5600878D31 /* CandidateTableView.h */,
+				CED5B9370F566A5600878D31 /* CandidateTableView.m */,
+				CE176ACD0F58D7BF00FB2075 /* SubPanel.h */,
+				CE176ACE0F58D7BF00FB2075 /* SubPanel.m */,
+				CE0F71D30F7B7ED2001870A6 /* FastPredictPanel.h */,
+				CE0F71D40F7B7ED2001870A6 /* FastPredictPanel.m */,
+				CEB7CCC60F5CDB1900DDADC2 /* Constants.h */,
+				CEB7CCC70F5CDB1900DDADC2 /* Constants.m */,
+				CE271ABE0F6577C2007F613C /* PreferencesController.h */,
+				CE271ABF0F6577C2007F613C /* PreferencesController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0A4070F53B40E002CDDED /* InputMethodKit.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SocialIM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SocialIM */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SocialIM;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SocialIM_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE271AB60F65733D007F613C /* RegisterWord.app */,
+				CE8CA0A90F89DA4000EB72C1 /* kanamap.plist */,
+				CEB375A00F592B5100DDA185 /* romanmap.plist */,
+				CEFB75090F5CE6DB0007D31D /* katakanamap.plist */,
+				CE1077BC0F6FFAFD001DD57D /* halfkatakanamap.plist */,
+				CE3F72070F57F2CF0065B105 /* roman.icns */,
+				CE3F72080F57F2CF0065B105 /* kana.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				CE9C76640F57BFA30011DCD4 /* preferences.xib */,
+				CE3A8B880F57B717006F7224 /* preferences.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* SocialIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SocialIM" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialIM;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SocialIM;
+			productReference = 8D1107320486CEB800E47090 /* SocialIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SocialIM" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SocialIM */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SocialIM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				CE9C76650F57BFA30011DCD4 /* preferences.xib in Resources */,
+				CE3A8B890F57B717006F7224 /* preferences.plist in Resources */,
+				CE3F72090F57F2CF0065B105 /* roman.icns in Resources */,
+				CE3F720A0F57F2CF0065B105 /* kana.icns in Resources */,
+				CEB375A10F592B5100DDA185 /* romanmap.plist in Resources */,
+				CEFB750A0F5CE6DB0007D31D /* katakanamap.plist in Resources */,
+				CE271AB70F65733D007F613C /* RegisterWord.app in Resources */,
+				CE1077BD0F6FFAFD001DD57D /* halfkatakanamap.plist in Resources */,
+				CE8CA0AA0F89DA4000EB72C1 /* kanamap.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				CEB0A40F0F53B69C002CDDED /* InputMethodController.m in Sources */,
+				CEBD2DEF0F53BCB700A52D8F /* ConversionEngine.m in Sources */,
+				CEBD2DF20F53BD7800A52D8F /* ApplicationDelegate.m in Sources */,
+				CEBD2EE10F54200A00A52D8F /* CandidatePanel.m in Sources */,
+				CED5B9380F566A5600878D31 /* CandidateTableView.m in Sources */,
+				CE176ACF0F58D7BF00FB2075 /* SubPanel.m in Sources */,
+				CEB7CCC80F5CDB1900DDADC2 /* Constants.m in Sources */,
+				CE271AC00F6577C2007F613C /* PreferencesController.m in Sources */,
+				CE0F71D50F7B7ED2001870A6 /* FastPredictPanel.m in Sources */,
+				CE0F71DA0F7B7FB5001870A6 /* PredictEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				CE8C2DDF0F5790C000D711E9 /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+				CE091EDF0F57C83800A302E8 /* Japanese */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CE9C76640F57BFA30011DCD4 /* preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3A8B840F57B4BF006F7224 /* English */,
+				CE091EE40F57CC6100A302E8 /* Japanese */,
+			);
+			name = preferences.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SocialIM_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = SocialIM;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SocialIM_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = SocialIM;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SocialIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SocialIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

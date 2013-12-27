@@ -1,0 +1,11 @@
+﻿/* Localized versions of Info.plist keys */
+
+NSHumanReadableCopyright = "© OverTaker, 2009";
+
+jp.lifeaether.inputmethod.kana = "ひらがな";
+jp.lifeaether.inputmethod.roman = "英字";
+
+CFBundleName = "Social IM";
+CFBundleDisplayName = "Social IM";
+CFBundleShortVersionString = "Social IM version 1.08";
+CFBundleGetInfoString = "Social IM version 1.08, Copyright 2009, OverTaker.";
